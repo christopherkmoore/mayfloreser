@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/zona_fit.jpeg';
+import heroImg from '../images/logo_2.png';
 
 const Hero = () => {
     return (
