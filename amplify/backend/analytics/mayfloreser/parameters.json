@@ -1,0 +1,21 @@
+{
+    "appName": "mayfloreser",
+    "roleName": "pinpointLambdaRole0f259e3e",
+    "cloudformationPolicyName": "cloudformationPolicy0f259e3e",
+    "cloudWatchPolicyName": "cloudWatchPolicy0f259e3e",
+    "pinpointPolicyName": "pinpointPolicy0f259e3e",
+    "authPolicyName": "pinpoint_amplify_0f259e3e",
+    "unauthPolicyName": "pinpoint_amplify_0f259e3e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

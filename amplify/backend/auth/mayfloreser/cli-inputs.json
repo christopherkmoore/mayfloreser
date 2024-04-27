@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "mayfloreser_identitypool_530f4123",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "mayfloreser",
+    "sharedId": "530f4123",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
